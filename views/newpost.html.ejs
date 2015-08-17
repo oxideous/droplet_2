@@ -1,0 +1,42 @@
+<% include introduction.html.ejs %>
+<div id="new-post" class="row">
+	<div id="new-post-key" class="small-12 columns">
+		<h2>New Post</h2>
+	</div>
+	<div id="new-post-form" class="small-12 columns">
+		<div data-alert class="alert-box warning">
+			Remember to let the hate flow through you! <strong>No positive vibes!</strong>
+			<a href="#" class="close">&times;</a>
+		</div>
+		<form action="/forum" method="POST" class="row">
+			<div class="small-12 medium-6 columns">
+				<label>Name
+					<input type="text" name="name" placeholder="Name" />
+				</label>
+			</div>
+			<div class="small-12 medium-6 columns">
+				<label>Avatar
+					<div id="avatar-select"></div>
+				</label>
+			</div>
+			<div class="small-12 columns">
+				<label>Post Subject
+					<input type="text" name="subject" placeholder="Post Subject" />
+				</label>
+			</div>
+			<div class="small-12 columns">
+				<label>Image URL
+					<input type="text" name="img_url" placeholder="Image URL" />
+				</label>
+			</div>
+			<div class="large-12 columns">
+				<label>Post Content
+					<textarea name="content" placeholder="Post Content"></textarea>
+				</label>
+			</div>
+			<div class="large-12 columns">
+				<button class="success right">Submit Post</button>
+			</div>
+		</form>
+	</div>
+</div>

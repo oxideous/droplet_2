@@ -1,0 +1,13 @@
+<% include top.html.ejs %>
+    <% include header.html.ejs %>
+    <div id="content-wrapper">
+        <% if (pLocation === "home") { %>
+            <% include list.html.ejs %>
+        <% } else if (pLocation === "newpost"){ %>
+            <% include newpost.html.ejs %>
+        <% } else if (pLocation === "showpost"){ %>
+            <% include showpost.html.ejs %>
+        <% } %>
+    </div>
+    <% include footer.html.ejs %>
+<% include bottom.html.ejs %>

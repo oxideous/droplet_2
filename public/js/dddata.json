@@ -1,0 +1,296 @@
+[
+        {
+            "text": "Alien",
+            "value": "/img/avatars/alien.png",
+            "selected": false,
+            "description": "Alien",
+            "imageSrc": "/img/avatars/alien.png"
+    },
+        {
+            "text": "Angry Man",
+            "value": "/img/avatars/angry-man.png",
+            "selected": false,
+            "description": "Angry Man",
+            "imageSrc": "/img/avatars/angry-man.png"
+    },
+        {
+            "text": "Anonymous",
+            "value": "/img/avatars/anonymous.png",
+            "selected": false,
+            "description": "anonymous",
+            "imageSrc": "/img/avatars/anonymous.png"
+    },
+        {
+            "text": "Bat",
+            "value": "/img/avatars/bat.png",
+            "selected": false,
+            "description": "Bat",
+            "imageSrc": "/img/avatars/bat.png"
+    },
+        {
+            "text": "Casper",
+            "value": "/img/avatars/casper.png",
+            "selected": false,
+            "description": "Casper",
+            "imageSrc": "/img/avatars/casper.png"
+    },
+        {
+            "text": "Chucky",
+            "value": "/img/avatars/chucky.png",
+            "selected": false,
+            "description": "Chucky",
+            "imageSrc": "/img/avatars/chucky.png"
+    },
+        {
+            "text": "Clown 2",
+            "value": "/img/avatars/clown-2.png",
+            "selected": false,
+            "description": "Clown 2",
+            "imageSrc": "/img/avatars/clown-2.png"
+    },
+        {
+            "text": "Clown",
+            "value": "/img/avatars/clown.png",
+            "selected": false,
+            "description": "Clown",
+            "imageSrc": "/img/avatars/clown.png"
+    },
+        {
+            "text": "Devil 3",
+            "value": "/img/avatars/devil-3.png",
+            "selected": false,
+            "description": "Devil 3",
+            "imageSrc": "/img/avatars/devil-3.png"
+    },
+        {
+            "text": "Devil 2",
+            "value": "/img/avatars/devil-2.png",
+            "selected": false,
+            "description": "Devil 2",
+            "imageSrc": "/img/avatars/devil-2.png"
+    },
+        {
+            "text": "Devil",
+            "value": "/img/avatars/devil.png",
+            "selected": false,
+            "description": "Devil 3",
+            "imageSrc": "/img/avatars/devil.png"
+    },
+        {
+            "text": "Doll",
+            "value": "/img/avatars/doll.png",
+            "selected": false,
+            "description": "Doll",
+            "imageSrc": "/img/avatars/doll.png"
+    },
+        {
+            "text": "Dracula",
+            "value": "/img/avatars/dracula.png",
+            "selected": false,
+            "description": "Dracula",
+            "imageSrc": "/img/avatars/dracula.png"
+    },
+        {
+            "text": "Face Paint",
+            "value": "/img/avatars/face-paint.png",
+            "selected": false,
+            "description": "Face Paint",
+            "imageSrc": "/img/avatars/face-paint.png"
+    },
+        {
+            "text": "Frankenstein",
+            "value": "/img/avatars/frankenstein.png",
+            "selected": false,
+            "description": "Frankenstein",
+            "imageSrc": "/img/avatars/frankenstein.png"
+    },
+        {
+            "text": "Freddie",
+            "value": "/img/avatars/freddie.png",
+            "selected": false,
+            "description": "Feddie",
+            "imageSrc": "/img/avatars/freddie.png"
+    },
+        {
+            "text": "Ghost",
+            "value": "/img/avatars/ghost.png",
+            "selected": false,
+            "description": "Ghost",
+            "imageSrc": "/img/avatars/ghost.png"
+    },
+        {
+            "text": "Ghoul",
+            "value": "/img/avatars/ghoul.png",
+            "selected": false,
+            "description": "ghoul",
+            "imageSrc": "/img/avatars/ghoul.png"
+    },
+        {
+            "text": "Gomez",
+            "value": "/img/avatars/gomez.png",
+            "selected": false,
+            "description": "Gomez",
+            "imageSrc": "/img/avatars/gomez.png"
+    },
+        {
+            "text": "Grim Reaper",
+            "value": "/img/avatars/grim-reaper.png",
+            "selected": false,
+            "description": "Grim Reaper",
+            "imageSrc": "/img/avatars/grim-reaper.png"
+    },
+        {
+            "text": "Hannibal",
+            "value": "/img/avatars/hannibal.png",
+            "selected": false,
+            "description": "Hannibal",
+            "imageSrc": "/img/avatars/hannibal.png"
+    },
+        {
+            "text": "Hell Raiser",
+            "value": "/img/avatars/hell-raiser.png",
+            "selected": false,
+            "description": "Hell Raiser",
+            "imageSrc": "/img/avatars/hell-raiser.png"
+    },
+        {
+            "text": "Jack O Lantern (Squash)",
+            "value": "/img/avatars/jack-o-lantern-squash.png",
+            "selected": false,
+            "description": "Jack O Lantern (Squash)",
+            "imageSrc": "/img/avatars/jack-o-lantern-squash.png"
+    },
+        {
+            "text": "Jack O Lantern",
+            "value": "/img/avatars/jack-o-lantern.png",
+            "selected": false,
+            "description": "Jack O Lantern",
+            "imageSrc": "/img/avatars/jack-o-lantern.png"
+    },
+        {
+            "text": "Jack Skeleton",
+            "value": "/img/avatars/jack-skeleton.png",
+            "selected": false,
+            "description": "Jack Skeleton",
+            "imageSrc": "/img/avatars/jack-skeleton.png"
+    },
+        {
+            "text": "Jason",
+            "value": "/img/avatars/jason.png",
+            "selected": false,
+            "description": "Jason",
+            "imageSrc": "/img/avatars/jason.png"
+    },
+        {
+            "text": "Kokey",
+            "value": "/img/avatars/kokey.png",
+            "selected": false,
+            "description": "Kokey",
+            "imageSrc": "/img/avatars/kokey.png"
+    },
+        {
+            "text": "Mike",
+            "value": "/img/avatars/mike.png",
+            "selected": false,
+            "description": "Mike",
+            "imageSrc": "/img/avatars/mike.png"
+    },
+        {
+            "text": "Mummy",
+            "value": "/img/avatars/mummy.png",
+            "selected": false,
+            "description": "Mummy",
+            "imageSrc": "/img/avatars/mummy.png"
+    },
+        {
+            "text": "Scream",
+            "value": "/img/avatars/scream.png",
+            "selected": false,
+            "description": "Scream",
+            "imageSrc": "/img/avatars/scream.png"
+    },
+        {
+            "text": "Sea Monster",
+            "value": "/img/avatars/sea-monster.png",
+            "selected": false,
+            "description": "Sea Monster",
+            "imageSrc": "/img/avatars/sea-monster.png"
+    },
+        {
+            "text": "Skull (Red)",
+            "value": "/img/avatars/skull-red.png",
+            "selected": false,
+            "description": "Skull (Red)",
+            "imageSrc": "/img/avatars/skull-red.png"
+    },
+        {
+            "text": "Skull",
+            "value": "/img/avatars/skull.png",
+            "selected": false,
+            "description": "skull",
+            "imageSrc": "/img/avatars/skull.png"
+    },
+        {
+            "text": "Slasher 2",
+            "value": "/img/avatars/slasher-2.png",
+            "selected": false,
+            "description": "Slasher 2",
+            "imageSrc": "/img/avatars/slasher-2.png"
+    },
+        {
+            "text": "Slasher",
+            "value": "/img/avatars/slasher.png",
+            "selected": false,
+            "description": "Slasher",
+            "imageSrc": "/img/avatars/slasher.png"
+    },
+        {
+            "text": "Slimer",
+            "value": "/img/avatars/slimer.png",
+            "selected": false,
+            "description": "Slimer",
+            "imageSrc": "/img/avatars/slimer.png"
+    },
+        {
+            "text": "Voodoo Doll",
+            "value": "/img/avatars/voodoo-doll.png",
+            "selected": false,
+            "description": "Voodoo doll",
+            "imageSrc": "/img/avatars/voodoo-doll.png"
+    },
+        {
+            "text": "Werewolf",
+            "value": "/img/avatars/werewolf.png",
+            "selected": false,
+            "description": "Werewolf",
+            "imageSrc": "/img/avatars/werewolf.png"
+    },
+        {
+            "text": "Witch",
+            "value": "/img/avatars/witch.png",
+            "selected": false,
+            "description": "Witch",
+            "imageSrc": "/img/avatars/witch.png"
+    },
+        {
+            "text": "Zombie 2",
+            "value": "/img/avatars/zombie-2.png",
+            "selected": false,
+            "description": "Zombie 2",
+            "imageSrc": "/img/avatars/zombie-2.png"
+    },
+        {
+            "text": "Zombie (Girl)",
+            "value": "/img/avatars/zombie-girl.png",
+            "selected": false,
+            "description": "Zombie (Girl)",
+            "imageSrc": "/img/avatars/zombie-girl.png"
+    },
+        {
+            "text": "Zombie",
+            "value": "/img/avatars/zombie.png",
+            "selected": false,
+            "description": "Zombie",
+            "imageSrc": "/img/avatars/zombie.png"
+    }
+]

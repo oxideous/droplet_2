@@ -1,0 +1,26 @@
+<% include introduction.html.ejs %>
+<div id="thread-key" class="row">
+	<div id="thread-key-rating" class="small-2 columns">
+		<h2>Rating</h2>
+	</div>
+	<div id="thread-key-info" class="small-10 columns">
+		<h2>Threads</h2>
+	</div>
+</div>
+<div id="thread-content">
+	<% list.forEach(function(post){ %>
+		<div class="row thread" data-equalizer>
+			<div class="small-2 columns rating" data-equalizer-watch>
+				<div class="rating-vert-center">
+					<h3><%= post.votes %></h3>
+				</div>
+			</div>
+			<div class="small-10 columns thread-info" data-equalizer-watch>
+				<img class="thread-avatar" src="<%= post.user_avatar %>" />
+				<h2 class="thread-title"><a href="/forum/<%= post.id %>"><%= post.title %></a> <span> by <span><%= post.username %></span></span> </h2>
+				<img class="thread-image-preview" src="<%= post.img_url %>" />
+				<p class="thread-preview"><%= post.content %></p>
+			</div>
+		</div>
+		<% });%>
+</div>
