@@ -18,12 +18,37 @@
 				</div>
 			</div>
 			<div class="small-10 columns thread-info" data-equalizer-watch>
+				<% if (post.user_avatar) { %>
+				<img class="thread-avatar" src="<%= post.user_avatar %>" />
+				<% } else { %>
+				<img class="thread-avatar" src="/img/avatars/anonymous.png" />
+				<% } %>
+				<% if (post.title) { %>
+				<h2 class="thread-title"><a href="/forum/<%= post.id %>"><%= post.title %></a> <span> by <span><%= post.username ? post.username : "NO NAME" %></span></span> </h2>
+				<% } else { %>
+				<h2 class="thread-title"><a href="/forum/<%= post.id %>">NO TITLE</a><span> by <span><%= post.username ? post.username : "NO NAME" %></span></span></h2>
+				<% } %>
+				<% if (post.content) { %>
+				<p class="thread-preview"><%= post.content %></p>
+				<% } else { %>
+				<p class="thread-preview">NO POST</p>
+				<% } %>
+				<% if (post.img_url) { %>
+				<img class="thread-image" src="<%= post.img_url %>" />
+				<% } else { %>
+				<img class="thread-image" src="http://i.giphy.com/YyKPbc5OOTSQE.gif" />
+				<% } %>
+			
+			
+			
+<!--
 				<img class="thread-avatar" src="<%= post.user_avatar %>" />
 				<h2 class="thread-title"><a href="/forum/<%= post.id %>"><%= post.title %></a> <span> by <span><%= post.username %></span></span> </h2>
 				<p class="thread-content">
 					<%= post.content %>
 				</p>
 				<img class="thread-image" src="<%= post.img_url %>" />
+-->
 			</div>
 		</div>
 	</div>
@@ -64,35 +89,35 @@
 			<h2>Comments</h2>
 		</div>
 		<% if (comments){ %>
-			<% comments.forEach(function(comment){ %>
-				<div class="small-12 columns comment">
-					<% if (comment.comment_avatar) { %>
-						<img class="comment-avatar" src="<%= comment.comment_avatar %>" />
-						<% } else { %>
-							<img class="comment-avatar" src="/img/avatars/anonymous.png" />
-							<% } %>
-								<% if (comment.comment_author_id) { %>
-									<h4 class="comment-name"><%= comment.comment_author_id %></h4>
-									<% } else { %>
-										<h4 class="comment-name">NO-NAME</h4>
-										<% } %>
-											<% if (comment.content) { %>
-												<p class="comment-content">
-													<%= comment.content %>
-												</p>
-												<% } else { %>
-													<p class="comment-content">NO POST</p>
-													<% } %>
-														<% if (comment.img_url) { %>
-															<img class="comment-image" src="<%= comment.img_url %>" />
-															<% } else { %>
-																<img class="comment-image-fail" src="http://i.giphy.com/YyKPbc5OOTSQE.gif" />
-																<% } %>
-				</div>
-				<% }); %>
-					<% } if(comments.length === 0) { %>
-						<div class="small-12 columns comment-fail">
-							<p class="comment-content">Nobody has posted a comment yet!</p>
-						</div>
-						<% } %>
+		<% comments.forEach(function(comment){ %>
+		<div class="small-12 columns comment">
+		<% if (comment.comment_avatar) { %>
+		<img class="comment-avatar" src="<%= comment.comment_avatar %>" />
+		<% } else { %>
+		<img class="comment-avatar" src="/img/avatars/anonymous.png" />
+		<% } %>
+		<% if (comment.comment_author_id) { %>
+		<h4 class="comment-name"><%= comment.comment_author_id %></h4>
+		<% } else { %>
+		<h4 class="comment-name">NO-NAME</h4>
+		<% } %>
+		<% if (comment.content) { %>
+		<p class="comment-content">
+		<%= comment.content %>
+		</p>
+		<% } else { %>
+		<p class="comment-content">NO POST</p>
+		<% } %>
+		<% if (comment.img_url) { %>
+		<img class="comment-image" src="<%= comment.img_url %>" />
+		<% } else { %>
+		<img class="comment-image-fail" src="http://i.giphy.com/YyKPbc5OOTSQE.gif" />
+		<% } %>
+		</div>
+		<% }); %>
+		<% } if(comments.length === 0) { %>
+		<div class="small-12 columns comment-fail">
+		<p class="comment-content">Nobody has posted a comment yet!</p>
+		</div>
+		<% } %>
 	</div>

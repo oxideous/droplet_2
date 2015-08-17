@@ -4,13 +4,13 @@ var app = express();
 var ejs = require('ejs');
 var methodOverride = require('method-override');
 var bodyParser = require('body-parser');
+var htmlTruncate = require('html-truncate');
 var bodyParserUrlEncoded = bodyParser.urlencoded({
 	extended: false
 });
 var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('forum.db');
-
-db.run("PRAGMA foreign_keys = ON;")
+db.run("PRAGMA foreign_keys = ON");
 
 app.set('view_engine', 'ejs');
 app.use(bodyParserUrlEncoded);
@@ -18,9 +18,14 @@ app.use(methodOverride('_method'));
 app.use(express.static('public'));
 app.enable('trust proxy');
 
+
+
+
 app.get('/', function (req, res) {
 	res.redirect('/forum');
 });
+
+
 
 app.get('/forum', function (req, res) {
 	var pLocation = "home";

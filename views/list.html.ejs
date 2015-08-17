@@ -24,18 +24,19 @@
 				<% if (post.title) { %>
 				<h2 class="thread-title"><a href="/forum/<%= post.id %>"><%= post.title %></a> <span> by <span><%= post.username ? post.username : "NO NAME" %></span></span> </h2>
 				<% } else { %>
-				<h2 class="thread-title">NO TITLE<span> by <span><%= post.username ? post.username : "NO NAME" %></span></span></h2>
-				<% } %>
-				<% if (post.content) { %>
-				<p class="thread-preview"><%= post.content %></p>
-				<% } else { %>
-				<p class="thread-content">NO POST</p>
+				<h2 class="thread-title"><a href="/forum/<%= post.id %>">NO TITLE</a><span> by <span><%= post.username ? post.username : "NO NAME" %></span></span></h2>
 				<% } %>
 				<% if (post.img_url) { %>
 				<img class="thread-image-preview" src="<%= post.img_url %>" />
 				<% } else { %>
-				<img class="comment-image-fail" src="http://i.giphy.com/YyKPbc5OOTSQE.gif" />
+				<img class="thread-image-preview" src="http://i.giphy.com/YyKPbc5OOTSQE.gif" />
 				<% } %>
+				<% if (post.content) { %>
+				<p class="thread-preview"><%= post.content %></p>
+				<% } else { %>
+				<p class="thread-preview">NO POST</p>
+				<% } %>
+
 			
 			
 			
