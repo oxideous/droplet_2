@@ -1,0 +1,28 @@
+{
+  "name": "tuuoeh",
+  "version": "1.0.0",
+  "description": "Project 2",
+  "main": "app.js",
+  "dependencies": {
+    "method-override": "^2.3.5",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "body-parser": "^1.13.3",
+    "request": "^2.60.0",
+    "sqlite3": "^3.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxideous/droplet_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oxideous/droplet_2/issues"
+  },
+  "homepage": "https://github.com/oxideous/droplet_2#readme"
+}
