@@ -16,10 +16,33 @@
 				</div>
 			</div>
 			<div class="small-10 columns thread-info" data-equalizer-watch>
+				<% if (post.user_avatar) { %>
 				<img class="thread-avatar" src="<%= post.user_avatar %>" />
-				<h2 class="thread-title"><a href="/forum/<%= post.id %>"><%= post.title %></a> <span> by <span><%= post.username %></span></span> </h2>
-				<img class="thread-image-preview" src="<%= post.img_url %>" />
+				<% } else { %>
+				<img class="thread-avatar" src="/img/avatars/anonymous.png" />
+				<% } %>
+				<% if (post.title) { %>
+				<h2 class="thread-title"><a href="/forum/<%= post.id %>"><%= post.title %></a> <span> by <span><%= post.username ? post.username : "NO NAME" %></span></span> </h2>
+				<% } else { %>
+				<h2 class="thread-title">NO TITLE<span> by <span><%= post.username ? post.username : "NO NAME" %></span></span></h2>
+				<% } %>
+				<% if (post.content) { %>
 				<p class="thread-preview"><%= post.content %></p>
+				<% } else { %>
+				<p class="thread-content">NO POST</p>
+				<% } %>
+				<% if (post.img_url) { %>
+				<img class="thread-image-preview" src="<%= post.img_url %>" />
+				<% } else { %>
+				<img class="comment-image-fail" src="http://i.giphy.com/YyKPbc5OOTSQE.gif" />
+				<% } %>
+			
+			
+			
+				
+
+
+
 			</div>
 		</div>
 		<% });%>
